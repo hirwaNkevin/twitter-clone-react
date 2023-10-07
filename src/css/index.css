@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #1d9bf0;
+    --background-color: #000000;
+    --secondary-bg-color: #16181c;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/Roboto-Regular.ttf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: "Roboto", system-ui, sans-serif;
+    box-sizing: content-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: #e7e9ea;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
