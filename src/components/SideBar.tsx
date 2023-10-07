@@ -4,7 +4,7 @@ const SideBar = () => {
       <nav>
         <a href="http://">
           <img
-            src="/src/assets/twitter-clone-logo.png"
+            src="/src/assets/kevinhirwanzitatira-white.svg"
             alt="twitter clone logo"
           />
         </a>
@@ -62,7 +62,7 @@ const SideBar = () => {
         </div>
         <div id="account">
           <img
-            src="/src/assets/twitter-clone-logo.png"
+            src="/src/assets/kevinhirwanzitatira-white.svg"
             alt="your profile picture"
           />
           <div id="name-username">
