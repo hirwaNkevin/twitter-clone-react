@@ -55,6 +55,22 @@ const SideBar = () => {
             </a>
           </li>
         </ul>
+        <div id="cta">
+          <a href="http://" className="compose-tweet-btn">
+            Post
+          </a>
+        </div>
+        <div id="account">
+          <img
+            src="/src/assets/twitter-clone-logo.png"
+            alt="your profile picture"
+          />
+          <div id="name-username">
+            <h3 className="username">hirwaNKevin</h3>
+            <p className="name">@kevinHirwaN</p>
+          </div>
+          <div id="account-more">...</div>
+        </div>
       </nav>
     </>
   );
