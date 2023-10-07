@@ -1,3 +1,18 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBell,
+  faEnvelope,
+  faFileLines,
+  faUser,
+} from "@fortawesome/free-regular-svg-icons";
+import {
+  faHome,
+  faMagnifyingGlass,
+  faUserGroup,
+  faEllipsis,
+} from "@fortawesome/free-solid-svg-icons";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
+
 const SideBar = () => {
   return (
     <>
@@ -11,46 +26,54 @@ const SideBar = () => {
         <ul id="nav-list">
           <li className="nav-item">
             <a href="" className="navlink">
-              Home
+              <FontAwesomeIcon icon={faHome} /> Home
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
+              <FontAwesomeIcon icon={faMagnifyingGlass} />
               Explore
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
+              <FontAwesomeIcon icon={faBell} />
               Notifications
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
+              <FontAwesomeIcon icon={faEnvelope} />
               Messages
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
+              <FontAwesomeIcon icon={faFileLines} />
               Lists
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
+              <FontAwesomeIcon icon={faUserGroup} />
               Communities
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
+              <FontAwesomeIcon icon={faXTwitter} />
               Premium
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
+              <FontAwesomeIcon icon={faUser} />
               Profile
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
+              <FontAwesomeIcon icon={faEllipsis} />
               More
             </a>
           </li>
@@ -69,7 +92,9 @@ const SideBar = () => {
             <h3 className="username">hirwaNKevin</h3>
             <p className="name">@kevinHirwaN</p>
           </div>
-          <div id="account-more">...</div>
+          <div id="account-more">
+            <FontAwesomeIcon icon={faEllipsis} />
+          </div>
         </div>
       </nav>
     </>
