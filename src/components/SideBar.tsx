@@ -18,10 +18,7 @@ const SideBar = () => {
     <>
       <nav>
         <a href="http://">
-          <img
-            src="/src/assets/kevinhirwanzitatira-white.svg"
-            alt="twitter clone logo"
-          />
+          <FontAwesomeIcon icon={faXTwitter} />
         </a>
         <ul id="nav-list">
           <li className="nav-item">
