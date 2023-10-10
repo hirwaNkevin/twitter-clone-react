@@ -34,3 +34,8 @@ a {
     text-decoration: none;
     color: var(--primary-color);
 }
+
+.container {
+    width: 100%;
+    margin: auto;
+}
