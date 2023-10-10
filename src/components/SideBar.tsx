@@ -23,55 +23,56 @@ const SideBar = () => {
         <ul id="nav-list">
           <li className="nav-item">
             <a href="" className="navlink">
-              <FontAwesomeIcon icon={faHome} /> Home
+              <FontAwesomeIcon icon={faHome} />{" "}
+              <span className="sidebar-link-content">Home</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
               <FontAwesomeIcon icon={faMagnifyingGlass} />
-              Explore
+              <span className="sidebar-link-content">Explore</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
               <FontAwesomeIcon icon={faBell} />
-              Notifications
+              <span className="sidebar-link-content">Notifications</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
               <FontAwesomeIcon icon={faEnvelope} />
-              Messages
+              <span className="sidebar-link-content">Messages</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
               <FontAwesomeIcon icon={faFileLines} />
-              Lists
+              <span className="sidebar-link-content">Lists</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
               <FontAwesomeIcon icon={faUserGroup} />
-              Communities
+              <span className="sidebar-link-content">Communities</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
               <FontAwesomeIcon icon={faXTwitter} />
-              Premium
+              <span className="sidebar-link-content">Premium</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
               <FontAwesomeIcon icon={faUser} />
-              Profile
+              <span className="sidebar-link-content">Profile</span>
             </a>
           </li>
           <li className="nav-item">
             <a href="" className="navlink">
               <FontAwesomeIcon icon={faEllipsis} />
-              More
+              <span className="sidebar-link-content">More</span>
             </a>
           </li>
         </ul>
