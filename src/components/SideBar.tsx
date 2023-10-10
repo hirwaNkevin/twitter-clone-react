@@ -10,6 +10,7 @@ import {
   faMagnifyingGlass,
   faUserGroup,
   faEllipsis,
+  faFeather,
 } from "@fortawesome/free-solid-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 
@@ -78,7 +79,13 @@ const SideBar = () => {
         </ul>
         <div id="cta">
           <a href="http://" className="compose-tweet-btn">
-            Post
+            {window.innerWidth > 800 ? (
+              <span className="">Post</span>
+            ) : (
+              <span>
+                <FontAwesomeIcon icon={faFeather} />
+              </span>
+            )}
           </a>
         </div>
         <div id="account">
