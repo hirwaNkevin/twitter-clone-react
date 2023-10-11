@@ -4,7 +4,11 @@ import "./css/App.css";
 function App() {
   return (
     <>
-      <SideBar />
+      <div className="container">
+        <nav>
+          <SideBar />
+        </nav>
+      </div>
     </>
   );
 }
