@@ -1,3 +1,22 @@
-.sidebar-link-content {
-    display: none;
+#nav-list,
+#sidebar {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+#nav-list {
+    height: 90%;
+}
+
+.nav-item {
+    width: 100%;
+    border: 1px solid;
+    padding: .5em;
 }

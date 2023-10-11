@@ -17,7 +17,7 @@ import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 const SideBar = () => {
   return (
     <>
-      <nav>
+      <nav id="sidebar">
         <a href="http://">
           <FontAwesomeIcon icon={faXTwitter} />
         </a>
