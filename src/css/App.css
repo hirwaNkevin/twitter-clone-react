@@ -9,14 +9,19 @@
     position: fixed;
     top: 0;
     bottom: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 19%;
 }
 
 #nav-list {
     height: 90%;
+    width: 100%;
+    border: 1px solid;
+    position: relative;
 }
 
 .nav-item {
-    width: 100%;
     border: 1px solid;
     padding: .5em;
 }
