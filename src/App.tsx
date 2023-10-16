@@ -4,7 +4,7 @@ import "./css/App.css";
 function App() {
   return (
     <>
-      <div className="container">
+      <div id="wrapper" className="container">
         <header>
           <SideBar />
         </header>

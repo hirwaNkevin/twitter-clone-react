@@ -40,3 +40,9 @@ a {
     width: 87%;
     margin: auto;
 }
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-columns: auto;
+}
