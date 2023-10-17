@@ -2,7 +2,6 @@
 #sidebar {
     display: flex;
     flex-flow: column;
-    border: 1px solid;
 }
 
 #sidebar {
@@ -17,11 +16,9 @@
 #nav-list {
     height: 90%;
     width: 100%;
-    border: 1px solid;
     position: relative;
 }
 
 .nav-item {
-    border: 1px solid;
     padding: .5em;
 }
