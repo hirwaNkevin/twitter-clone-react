@@ -2,6 +2,7 @@
 #sidebar {
     display: flex;
     flex-flow: column;
+    font-size: 2rem;
 }
 
 #sidebar {
@@ -31,4 +32,9 @@
 
 .navlink > svg{
     width: 20%;
+}
+
+#logo {
+    font-size: 3rem;
+    padding: 0 .5em;
 }

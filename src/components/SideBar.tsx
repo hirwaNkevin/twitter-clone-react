@@ -18,7 +18,7 @@ const SideBar = () => {
   return (
     <>
       <nav id="sidebar">
-        <a href="http://">
+        <a href="http://" id="logo">
           <FontAwesomeIcon icon={faXTwitter} />
         </a>
         <ul id="nav-list">
