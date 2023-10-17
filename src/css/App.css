@@ -22,3 +22,13 @@
 .nav-item {
     padding: .5em;
 }
+
+.navlink {
+    display: flex;
+    gap: .7em;
+    justify-content: left;
+}
+
+.navlink > svg{
+    width: 20%;
+}
