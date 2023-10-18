@@ -47,5 +47,6 @@
     width: 15%;
     border-radius: 50%;
     padding: .3em 0;
+    margin-right: .4em;
     display: inline-block;
 }
