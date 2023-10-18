@@ -40,3 +40,11 @@
     font-size: 3rem;
     padding: 0 .5em;
 }
+
+#more-icon svg{
+    border: 2px solid;
+    width: 15%;
+    border-radius: 50%;
+    padding: .3em 0;
+    display: inline-block;
+}

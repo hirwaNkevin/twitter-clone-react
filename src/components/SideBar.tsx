@@ -71,7 +71,7 @@ const SideBar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="" className="navlink">
+            <a href="" className="navlink" id="more-icon">
               <FontAwesomeIcon icon={faEllipsis} />
               <span className="sidebar-link-content">More</span>
             </a>
