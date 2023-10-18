@@ -3,6 +3,7 @@
     display: flex;
     flex-flow: column;
     font-size: 2rem;
+    padding-top: .5em;
 }
 
 #sidebar {
