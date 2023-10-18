@@ -1,3 +1,5 @@
+@import url('index.css');
+
 #nav-list,
 #sidebar {
     display: flex;
@@ -49,4 +51,19 @@
     padding: .3em 0;
     margin-right: .4em;
     display: inline-block;
+}
+
+#cta {
+    width: 100%;
+    padding: .5em;
+}
+
+#cta > a {
+    display: inline-block;
+    width: 80%;
+    background-color: var(--primary-color);
+    padding: .6em;
+    border-radius: 4rem;
+    text-align: center;
+    font-weight: bold;
 }
