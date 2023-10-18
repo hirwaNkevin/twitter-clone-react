@@ -30,6 +30,7 @@
     gap: .7em;
     justify-content: left;
     padding: .6em;
+    align-items: center;
 }
 
 .navlink > svg{
