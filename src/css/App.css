@@ -77,3 +77,10 @@
     justify-content: space-around;
     gap: .5em;
 }
+
+#account img {
+    width: 2em;
+    height: 2em;
+    background-color: #fff;
+    border-radius: 50%;
+}
