@@ -74,8 +74,10 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: .5em;
+    justify-content: left;
+    gap: 2em;
+    font-size: 1.4rem;
+    padding: .5em;
 }
 
 #account img {
