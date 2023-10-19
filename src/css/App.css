@@ -70,8 +70,7 @@
 
 #account {
     border: 1px solid;
-    width: 100%;
-    margin: auto;
+    width: 85%;
     display: flex;
     align-items: center;
     justify-content: left;
