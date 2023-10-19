@@ -90,7 +90,7 @@ const SideBar = () => {
         </div>
         <div id="account">
           <img
-            src="/src/assets/kevinhirwanzitatira-white.svg"
+            src="/src/assets/Kevin Hirwa Nzitatira.jpeg"
             alt="your profile picture"
           />
           <div id="name-username">
