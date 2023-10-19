@@ -89,15 +89,17 @@ const SideBar = () => {
           </a>
         </div>
         <div id="account">
-          <div id="img-wrapper-account">
-            <img
-              src="/src/assets/Kevin Hirwa Nzitatira.jpeg"
-              alt="your profile picture"
-            />
-          </div>
-          <div id="name-username">
-            <h3 className="username">hirwaNKevin</h3>
-            <p className="name">@kevinHirwaN</p>
+          <div id="profile">
+            <div id="img-wrapper-account">
+              <img
+                src="/src/assets/Kevin Hirwa Nzitatira.jpeg"
+                alt="your profile picture"
+              />
+            </div>
+            <div id="name-username">
+              <h3 className="username">hirwaNKevin</h3>
+              <p className="name">@kevinHirwaN</p>
+            </div>
           </div>
           <div id="account-more">
             <FontAwesomeIcon icon={faEllipsis} />

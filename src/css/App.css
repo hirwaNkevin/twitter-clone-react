@@ -79,6 +79,11 @@
     padding: .5em;
 }
 
+#profile {
+    display: flex;
+    gap: 1em;
+}
+
 #img-wrapper-account {
     width: 3em;
     height: 3em;
