@@ -80,8 +80,13 @@
     padding: .5em;
 }
 
-#account img {
-    width: 2em;
-    height: 2em;
+#img-wrapper-account {
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
+    overflow: hidden;
+}
+
+#account img {
+    max-width: 100%;
 }
