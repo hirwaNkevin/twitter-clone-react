@@ -95,3 +95,8 @@
 #account img {
     max-width: 100%;
 }
+
+#name-username .name {
+    font-weight: lighter;
+    color: #878787;
+}
