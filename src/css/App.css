@@ -67,3 +67,13 @@
     text-align: center;
     font-weight: bold;
 }
+
+#account {
+    border: 1px solid;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: .5em;
+}
