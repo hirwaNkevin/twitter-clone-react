@@ -69,7 +69,6 @@
 }
 
 #account {
-    border: 1px solid;
     width: 85%;
     display: flex;
     align-items: center;
@@ -78,6 +77,7 @@
     justify-content: space-between;
     font-size: 1.4rem;
     padding: 1em;
+    border-radius: 4rem;
 }
 
 #profile {
