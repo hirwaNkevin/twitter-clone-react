@@ -1,3 +1,4 @@
+import Feed from "./components/Feed";
 import SideBar from "./components/SideBar";
 import "./css/App.css";
 
@@ -9,7 +10,7 @@ function App() {
           <SideBar />
         </header>
         <main>
-          <h1>Main</h1>
+          <Feed />
         </main>
         <aside id="trends">
           <h2>aside</h2>
