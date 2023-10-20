@@ -13,8 +13,8 @@ const FeedMenu = () => {
         <h2>Home</h2>
       </a>
       <nav>
-        <a href="#">Lorem</a>
-        <a href="#">Ipsum</a>
+        <a href="#">Boo</a>
+        <a href="#">Baa</a>
       </nav>
     </div>
   );
