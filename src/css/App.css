@@ -164,6 +164,7 @@
     display: grid;
     grid-template-columns: 2em 1fr;
     gap: 1em;
+    cursor: pointer;
 }
 
 .post-info {
