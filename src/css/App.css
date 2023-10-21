@@ -181,3 +181,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+.ctlr {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
