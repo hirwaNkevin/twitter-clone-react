@@ -2,9 +2,11 @@ import PostComponent from "./PostComponent";
 const Feed = () => {
   return (
     <>
-      <FeedMenu />
-      <div id="posts">
-        <PostComponent />
+      <div id="feed">
+        <FeedMenu />
+        <div id="posts">
+          <PostComponent />
+        </div>
       </div>
     </>
   );
