@@ -178,6 +178,10 @@
     gap: .3em;
 }
 
+.post .user-info>.username-name>.username {
+    font-weight: bold;
+}
+
 .post-content {
     display: flex;
     flex-flow: column;
