@@ -123,3 +123,22 @@
 #feed-menu > a > h2 {
     padding: .5em;
 }
+
+.feed-menu-active {
+    color: #fff !important;
+    font-weight: bold;
+    position: relative;
+}
+
+.feed-menu-active::after {
+    content: '';
+    display: block;
+    background-color: var(--primary-color);
+    padding: 2px;
+    width: 100%;
+    bottom: -1em;
+    right: 0;
+    position: absolute;
+    border-radius: 5em;
+    margin-right: -.1em;
+}
