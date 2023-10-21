@@ -167,10 +167,15 @@
     cursor: pointer;
 }
 
+.post .user-info>.username-name,
 .post-info {
     display: flex;
     align-items: center;
     gap: .5em;
+}
+
+.post .user-info>.username-name {
+    gap: .3em;
 }
 
 .post-content {
