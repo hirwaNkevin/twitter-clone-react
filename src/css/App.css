@@ -106,9 +106,10 @@
 #feed-menu > nav {
     display: flex;
 }
+
 #feed-menu > nav > a{
     display: inline-block;
     text-align: center;
     width: 50%;
-    border: 1px solid;
+    padding: 1em;
 }
