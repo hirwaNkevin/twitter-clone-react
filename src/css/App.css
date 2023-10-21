@@ -121,7 +121,8 @@
 }
 
 #feed-menu > a > h2 {
-    padding: .5em;
+    padding: 1em;
+    font-size: 1.7rem;
 }
 
 .feed-menu-active {
