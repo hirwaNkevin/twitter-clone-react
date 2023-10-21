@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const PostComponent = () => {
   return (
     <>
-      <div className="post">
+      <a href="" className="post">
         <div className="img-wrapper-account">
           <img
             src="/src/assets/Kevin Hirwa Nzitatira.jpeg"
@@ -59,7 +59,7 @@ const PostComponent = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </a>
     </>
   );
 };
