@@ -182,6 +182,10 @@
     font-weight: bold;
 }
 
+.verification>svg {
+    color: var(--primary-color);
+}
+
 .post-content {
     display: flex;
     flex-flow: column;
