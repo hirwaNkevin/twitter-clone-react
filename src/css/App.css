@@ -170,6 +170,7 @@
 .post-info {
     display: flex;
     align-items: center;
+    gap: .5em;
 }
 
 .post-content {
