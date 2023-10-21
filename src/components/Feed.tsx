@@ -2,6 +2,7 @@ const Feed = () => {
   return (
     <>
       <FeedMenu />
+      <div id="posts"></div>
     </>
   );
 };
