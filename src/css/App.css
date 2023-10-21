@@ -107,6 +107,8 @@
     border-bottom: 1px solid #878787;
     position: sticky;
     top: 0;
+    background-color: inherit;
+    backdrop-filter: blur(20px);
 }
 
 #feed-menu > nav {
