@@ -1,8 +1,11 @@
+import PostComponent from "./PostComponent";
 const Feed = () => {
   return (
     <>
       <FeedMenu />
-      <div id="posts"></div>
+      <div id="posts">
+        <PostComponent />
+      </div>
     </>
   );
 };

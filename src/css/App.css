@@ -147,3 +147,14 @@
     border-radius: 5em;
     margin-right: -.1em;
 }
+
+.img-wrapper-account {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.post img {
+    max-width: 100%;
+}
