@@ -29,7 +29,7 @@ const PostComponent = () => {
                 <span className="name">@kevinHirwaN</span>
               </div>
             </div>
-            <div className="separator">.</div>
+            <div className="separator">&bull;</div>
             <div className="eta">4m</div>
           </div>
           <div className="post-content-inner">
