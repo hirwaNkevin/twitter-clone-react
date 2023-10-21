@@ -103,6 +103,11 @@
 
 /* Feed Menu */
 
+#feed {
+    border-right: 1px solid #878787;
+    min-height: 100vh;
+}
+
 #feed-menu {
     border-bottom: 1px solid #878787;
     position: sticky;
