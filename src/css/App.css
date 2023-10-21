@@ -174,11 +174,17 @@
     gap: .5em;
 }
 
+.post-info {
+    font-size: small;
+    color: #878787;
+}
+
 .post .user-info>.username-name {
     gap: .3em;
 }
 
 .post .user-info>.username-name>.username {
+    color: #fff;
     font-weight: bold;
 }
 
