@@ -103,6 +103,10 @@
 
 /* Feed Menu */
 
+#feed-menu {
+    border-bottom: 1px solid #878787;
+}
+
 #feed-menu > nav {
     display: flex;
 }
