@@ -6,6 +6,11 @@ const Feed = () => {
         <FeedMenu />
         <div id="posts">
           <PostComponent />
+          <PostComponent />
+          <PostComponent />
+          <PostComponent />
+          <PostComponent />
+          <PostComponent />
         </div>
       </div>
     </>
