@@ -158,3 +158,15 @@
 .post img {
     max-width: 100%;
 }
+
+.post {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 2em 1fr;
+    gap: 1em;
+}
+
+.post-info {
+    display: flex;
+    align-items: center;
+}
