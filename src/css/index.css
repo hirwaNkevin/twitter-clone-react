@@ -43,7 +43,7 @@ a {
 
 #wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 20% 2fr 1.4fr;
     grid-auto-columns: auto;
 }
 
