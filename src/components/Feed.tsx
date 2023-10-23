@@ -1,16 +1,16 @@
-import PostComponent from "./PostComponent";
+import Post from "./PostComponent";
 const Feed = () => {
   return (
     <>
       <div id="feed">
         <FeedMenu />
         <div id="posts">
-          <PostComponent />
-          <PostComponent />
-          <PostComponent />
-          <PostComponent />
-          <PostComponent />
-          <PostComponent />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
         </div>
       </div>
     </>
