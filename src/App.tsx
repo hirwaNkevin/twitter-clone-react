@@ -1,5 +1,6 @@
 import Feed from "./components/Feed";
 import SideBar from "./components/SideBar";
+import Trends from "./components/SideBarTrendsComponent";
 import "./css/App.css";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
           <Feed />
         </main>
         <aside id="trends">
-          <h2>aside</h2>
+          <Trends />
         </aside>
         <div id="messaging">
           <h2>Messaging</h2>
