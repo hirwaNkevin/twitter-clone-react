@@ -1,5 +1,9 @@
 const QuickPostComponent = () => {
-  return <div>QuickPostComponent</div>;
+  return (
+    <div>
+      <h2>HEllo quick post</h2>
+    </div>
+  );
 };
 
 export default QuickPostComponent;

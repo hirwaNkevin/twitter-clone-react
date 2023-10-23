@@ -1,9 +1,11 @@
 import Post from "./PostComponent";
+import QuickPost from "./QuickPostComponent";
 const Feed = () => {
   return (
     <>
       <div id="feed">
         <FeedMenu />
+        <QuickPost />
         <div id="posts">
           <Post />
           <Post />
