@@ -19,7 +19,12 @@ const QuickPostComponent = () => {
         </div>
         <div className="post-content">
           <form action="#">
-            <input type="text" name="post-content" id="post-input" />
+            <input
+              type="text"
+              name="post-content"
+              id="post-input"
+              placeholder="What is happening?"
+            />
             <div className="flex">
               <div className="accesories">
                 <a href="#" className="post-accesory">
