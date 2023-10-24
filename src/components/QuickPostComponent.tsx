@@ -22,10 +22,10 @@ const QuickPostComponent = () => {
             <input
               type="text"
               name="post-content"
-              id="post-input"
+              id="post-input-text"
               placeholder="What is happening?"
             />
-            <div className="flex">
+            <div className="flex post-access-submit">
               <div className="accesories">
                 <a href="#" className="post-accesory">
                   <FontAwesomeIcon icon={faImage} />
