@@ -222,3 +222,12 @@
 .ctlr-count {
     font-size: small;
 }
+
+/* Quick post */
+
+.post-access-submit {
+    display: flex;
+    min-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
