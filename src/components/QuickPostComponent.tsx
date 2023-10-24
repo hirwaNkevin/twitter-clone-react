@@ -1,12 +1,11 @@
-// import {
-//   faCheckCircle,
-//   faRepeat,
-//   faChartBar,
-//   faUpload,
-// } from "@fortawesome/free-solid-svg-icons";
-
-// import { faHeart, faCommentAlt } from "@fortawesome/free-regular-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot, faPollH } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCalendar,
+  faFileVideo,
+  faImage,
+  faSmile,
+} from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const QuickPostComponent = () => {
   return (
@@ -22,7 +21,26 @@ const QuickPostComponent = () => {
           <form action="#">
             <input type="text" name="post-content" id="post-input" />
             <div className="flex">
-              <div className="accesories"></div>
+              <div className="accesories">
+                <a href="#" className="post-accesory">
+                  <FontAwesomeIcon icon={faImage} />
+                </a>
+                <a href="#" className="post-accesory">
+                  <FontAwesomeIcon icon={faFileVideo} />
+                </a>
+                <a href="#" className="post-accesory">
+                  <FontAwesomeIcon icon={faPollH} />
+                </a>
+                <a href="#" className="post-accesory">
+                  <FontAwesomeIcon icon={faSmile} />
+                </a>
+                <a href="#" className="post-accesory">
+                  <FontAwesomeIcon icon={faCalendar} />
+                </a>
+                <a href="#" className="post-accesory">
+                  <FontAwesomeIcon icon={faLocationDot} />
+                </a>
+              </div>
               <button type="submit" className="post-submit-btn">
                 Post
               </button>
