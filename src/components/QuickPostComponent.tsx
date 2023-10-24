@@ -25,7 +25,7 @@ const QuickPostComponent = () => {
               id="post-input-text"
               placeholder="What is happening?"
             />
-            <div className="flex post-access-submit">
+            <div className="post-access-submit">
               <div className="accesories">
                 <a href="#" className="post-accesory">
                   <FontAwesomeIcon icon={faImage} />
