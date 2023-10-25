@@ -244,3 +244,14 @@
     height: .9em;
     color: var(--primary-color);
 }
+
+#post-input-text {
+    font-size: 2rem;
+    padding: .5em;
+    padding-left: 0;
+    background-color: inherit;
+    border: none;
+    font-weight: lighter;
+    outline: none;
+    color: #fff;
+}
