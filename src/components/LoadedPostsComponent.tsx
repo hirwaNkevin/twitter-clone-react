@@ -1,5 +1,5 @@
 const LoadedPosts = () => {
-  return <div>LoadedPosts</div>;
+  return <div id="loaded-posts">Show 105 posts</div>;
 };
 
 export default LoadedPosts;

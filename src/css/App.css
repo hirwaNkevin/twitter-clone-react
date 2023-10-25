@@ -268,3 +268,14 @@
     border: none;
     outline: none;
 }
+
+/* Loaded Posts */
+
+#loaded-posts {
+    padding: 1em;
+    text-align: center;
+    color: var(--primary-color);
+    border-bottom: 1px solid #878787;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
