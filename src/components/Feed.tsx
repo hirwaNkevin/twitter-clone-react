@@ -1,11 +1,13 @@
 import Post from "./PostComponent";
 import QuickPost from "./QuickPostComponent";
+import LoadedPosts from "./LoadedPostsComponent";
 const Feed = () => {
   return (
     <>
       <div id="feed">
         <FeedMenu />
         <QuickPost />
+        <LoadedPosts />
         <div id="posts">
           <Post />
           <Post />
