@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const QuickPostComponent = () => {
   return (
     <div>
-      <div className="post">
+      <div id="quick-post" className="post">
         <div className="img-wrapper-account">
           <img
             src="/src/assets/Kevin Hirwa Nzitatira.jpeg"

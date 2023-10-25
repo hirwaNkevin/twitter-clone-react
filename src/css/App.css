@@ -225,6 +225,10 @@
 
 /* Quick post */
 
+#quick-post {
+    cursor: reset;
+}
+
 .post-access-submit {
     display: flex;
     min-width: 100%;
