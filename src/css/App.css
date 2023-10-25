@@ -242,4 +242,5 @@
 .accesories > .post-accesory > svg{
     width: 1em;
     height: 1em;
+    color: var(--primary-color);
 }
