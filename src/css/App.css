@@ -240,7 +240,7 @@
 }
 
 .accesories > .post-accesory > svg{
-    width: 1em;
-    height: 1em;
+    width: .9em;
+    height: .9em;
     color: var(--primary-color);
 }
