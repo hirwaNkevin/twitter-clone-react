@@ -46,7 +46,11 @@ const QuickPostComponent = () => {
                   <FontAwesomeIcon icon={faLocationDot} />
                 </a>
               </div>
-              <button type="submit" className="post-submit-btn">
+              <button
+                type="submit"
+                className="post-submit-btn btn"
+                disabled={5 === Math.round(Math.random()) + 10 ? true : false}
+              >
                 Post
               </button>
             </div>
