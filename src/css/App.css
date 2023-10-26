@@ -296,7 +296,7 @@
 
 /* aside comps */
 
-#aside-comps > * {
+#aside-comps > div {
     display: flex;
     flex-flow: column nowrap;
     align-items: start;
@@ -307,6 +307,8 @@
     margin: auto;
     padding: 1em;
     border-radius: 2rem;
+    background-color: #202327;
+    font-weight: bold;
 }
 
 /* Search */
@@ -340,11 +342,6 @@
 
 #search-form > span > svg {
     color: #878787;
-}
-
-#subscribe-premium {
-    background-color: #202327;
-    font-weight: bold;
 }
 
 #subscribe-premium > a {
