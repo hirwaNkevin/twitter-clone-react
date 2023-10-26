@@ -285,6 +285,14 @@
     cursor: pointer;
 }
 
+/* Trends */
+
+#trends {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
 /* Search */
 
 #search-wrapper {
@@ -294,7 +302,7 @@
     padding: .2em;
 }
 
- #search-form {
+#search-form {
     background-color: #202327;
     display: flex;
     align-items: center;
