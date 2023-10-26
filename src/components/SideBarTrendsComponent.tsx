@@ -5,6 +5,18 @@ const SideBarTrendsComponent = () => {
   return (
     <>
       <Search />
+      <div id="aside-comps">
+        <div id="subscribe-premium">
+          <h2>Subscribe to Premium</h2>
+          <p>
+            Subscribe to unlock new features and if eligible, receive a share of
+            ads revenue
+          </p>
+          <a href="#" className="btn">
+            Subscribe
+          </a>
+        </div>
+      </div>
     </>
   );
 };
