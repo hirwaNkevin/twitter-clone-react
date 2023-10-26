@@ -12,7 +12,7 @@ const SideBarTrendsComponent = () => {
 const Search = () => {
   return (
     <>
-      <form action="#">
+      <form action="#" id="search-form">
         <span>
           <FontAwesomeIcon icon={faMagnifyingGlass} />
         </span>
