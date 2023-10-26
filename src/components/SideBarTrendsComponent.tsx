@@ -18,6 +18,9 @@ const SideBarTrendsComponent = () => {
             Subscribe
           </a>
         </div>
+        <div id="live-on-x">
+          <h2>Live On X</h2>
+        </div>
       </div>
     </>
   );
