@@ -14,7 +14,7 @@ html {
 }
 
 * {
-    font-family: "Roboto", system-ui, sans-serif;
+    font-family: "Arial", "Roboto", system-ui, sans-serif;
     box-sizing: content-box;
     margin: 0;
 }
