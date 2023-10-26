@@ -287,10 +287,25 @@
 
 /* Trends */
 
+#aside-comps,
 #trends {
     display: flex;
     flex-flow: column nowrap;
     gap: 1em;
+}
+
+/* aside comps */
+
+#aside-comps > * {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1em;
+    width: 75%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 2rem;
 }
 
 /* Search */
@@ -327,15 +342,6 @@
 }
 
 #subscribe-premium {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: start;
-    justify-content: space-between;
-    gap: 1em;
-    width: 75%;
-    margin: auto;
-    padding: 1em;
-    border-radius: 2rem;
     background-color: #202327;
     font-size: 1.4rem;
     font-weight: bold;
