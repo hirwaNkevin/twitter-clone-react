@@ -1,4 +1,7 @@
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEllipsis,
+  faMagnifyingGlass,
+} from "@fortawesome/free-solid-svg-icons";
 import {} from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SideBarTrendsComponent = () => {
@@ -21,6 +24,10 @@ const SideBarTrendsComponent = () => {
         <div id="live-on-x">
           <h2>Live On X</h2>
         </div>
+        <div id="trends-for-you">
+          <h2>Trends for you</h2>
+          <Trend />
+        </div>
       </div>
     </>
   );
@@ -35,6 +42,25 @@ const Search = () => {
         </span>
         <input type="text" name="search" id="search" placeholder="Search" />
       </form>
+    </>
+  );
+};
+
+const Trend = () => {
+  return (
+    <>
+      <div className="trend">
+        <div className="category">
+          <span className="category-name">Technology</span>&bull;Trending
+          <span>
+            <FontAwesomeIcon icon={faEllipsis} />
+          </span>
+        </div>
+        <div className="trend-name">Vercel</div>
+        <div className="post-number">
+          <span className="post-number-count">3,443</span> posts
+        </div>
+      </div>
     </>
   );
 };
