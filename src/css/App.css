@@ -307,4 +307,7 @@
     border: none;
     color: #fff;
 }
- 
+
+#search-form > span > svg {
+    color: #878787;
+}
