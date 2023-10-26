@@ -286,18 +286,24 @@
 }
 
 /* Search */
+
+#search-wrapper {
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    padding: .2em;
+}
+
  #search-form {
     background-color: #202327;
     display: flex;
     align-items: center;
     justify-content: left;
     width: 75%;
+    margin: auto;
     padding: .5em 1em;
     gap: 1em;
     border-radius: 4rem;
-    margin: .3em auto;
-    position: sticky;
-    top: .3em;
 }
 
 #search-form > input {

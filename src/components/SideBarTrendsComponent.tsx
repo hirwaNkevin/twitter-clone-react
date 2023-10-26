@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SideBarTrendsComponent = () => {
   return (
     <>
-      <Search />
+      <div id="search-wrapper">
+        <Search />
+      </div>
       <div id="aside-comps">
         <div id="subscribe-premium">
           <h2>Subscribe to Premium</h2>
