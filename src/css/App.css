@@ -104,12 +104,12 @@
 /* Feed Menu */
 
 #feed {
-    border-right: 1px solid #878787;
+    border-right: 1px solid #2f3336;
     min-height: 100vh;
 }
 
 #feed-menu {
-    border-bottom: 1px solid #878787;
+    border-bottom: 1px solid #2f3336;
     position: sticky;
     top: 0;
     background-color: inherit;
@@ -172,7 +172,7 @@
     grid-template-columns: 2em 1fr;
     gap: 1em;
     cursor: pointer;
-    border-bottom: 1px solid #878787;
+    border-bottom: 1px solid #2f3336;
 }
 
 .post .user-info>.username-name,
@@ -280,7 +280,7 @@
     padding: 1em;
     text-align: center;
     color: var(--primary-color);
-    border-bottom: 1px solid #878787;
+    border-bottom: 1px solid #2f3336;
     font-size: 1.5rem;
     cursor: pointer;
 }
