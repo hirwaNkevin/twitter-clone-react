@@ -226,7 +226,7 @@
 /* Quick post */
 
 #quick-post {
-    cursor: reset;
+    cursor: initial;
 }
 
 .post-access-submit {
