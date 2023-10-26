@@ -303,6 +303,7 @@
     justify-content: space-between;
     gap: 1em;
     width: 75%;
+    font-size: 1.4rem;
     margin: auto;
     padding: 1em;
     border-radius: 2rem;
@@ -343,7 +344,6 @@
 
 #subscribe-premium {
     background-color: #202327;
-    font-size: 1.4rem;
     font-weight: bold;
 }
 
