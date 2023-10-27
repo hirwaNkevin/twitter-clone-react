@@ -348,3 +348,15 @@
     font-size: larger;
     padding: .5em 1em;
 }
+
+/* Trends */
+
+#trends-for-you{
+    padding: 1em !important;
+}
+
+.trend {
+    width: 100%;
+    padding: 1em;
+    margin-left: -1em;
+}
