@@ -27,6 +27,8 @@ const SideBarTrendsComponent = () => {
         <div id="trends-for-you">
           <h2>Trends for you</h2>
           <Trend />
+          <Trend />
+          <Trend />
         </div>
       </div>
     </>
