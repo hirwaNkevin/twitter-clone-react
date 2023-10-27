@@ -50,8 +50,10 @@ const Trend = () => {
   return (
     <>
       <div className="trend">
-        <div className="category">
-          <span className="category-name">Technology</span>&bull;Trending
+        <div className="category-wrp">
+          <div className="category">
+            <span className="category-name">Technology</span>&bull;Trending
+          </div>
           <span>
             <FontAwesomeIcon icon={faEllipsis} />
           </span>

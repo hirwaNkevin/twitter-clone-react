@@ -362,3 +362,10 @@
     font-size: smaller;
     font-weight: lighter;
 }
+
+.category-wrp {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+}
