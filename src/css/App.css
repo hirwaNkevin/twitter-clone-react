@@ -359,4 +359,6 @@
     width: 100%;
     padding: 1em;
     margin-left: -1em;
+    font-size: smaller;
+    font-weight: lighter;
 }
