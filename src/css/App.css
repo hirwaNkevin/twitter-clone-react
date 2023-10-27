@@ -361,6 +361,9 @@
     margin-left: -1em;
     font-size: smaller;
     font-weight: lighter;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .5em;
 }
 
 .category-wrp {
@@ -368,4 +371,26 @@
     align-items: center;
     gap: 1em;
     justify-content: space-between;
+}
+
+.post-number,
+.post-number-count,
+.category-wrp > span > svg,
+.category-wrp > .category > .category-name {
+    color: #878787;
+    font-weight: lighter;
+    font-family: "Segoe UI";
+}
+
+.category-wrp > .category > .category-name {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    gap: .3em;
+}
+
+.trend-name {
+    font-weight: bolder;
+    font-size: 1.6rem;
 }

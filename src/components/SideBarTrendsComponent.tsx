@@ -52,7 +52,9 @@ const Trend = () => {
       <div className="trend">
         <div className="category-wrp">
           <div className="category">
-            <span className="category-name">Technology</span>&bull;Trending
+            <span className="category-name">
+              Technology <span>&bull;</span>Trending
+            </span>
           </div>
           <span>
             <FontAwesomeIcon icon={faEllipsis} />
