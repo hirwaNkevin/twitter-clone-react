@@ -32,6 +32,7 @@ const SideBarTrendsComponent = () => {
         </div>
         <div id="who-to-follow">
           <h2>Who to Follow</h2>
+          <AccountToFolow />
         </div>
       </div>
     </>
@@ -71,6 +72,28 @@ const Trend = () => {
         </div>
       </div>
     </>
+  );
+};
+
+const AccountToFolow = () => {
+  return (
+    <a href="#">
+      <div className="account">
+        <div className="img-wrapper">
+          <img
+            src="/src/assets/Kevin Hirwa Nzitatira.jpeg"
+            alt="profile of Kevin"
+          />
+        </div>
+        <div className="account-info">
+          <h3 className="username-who_to_follow">Kevin Hirwa</h3>
+          <p className="name-who_to_follow">@HirwaNkevin</p>
+        </div>
+      </div>
+      <div className="follow-btn-wrapper-who_to_follow">
+        <button className="follow-btn-who_to_follow">Follow</button>
+      </div>
+    </a>
   );
 };
 
