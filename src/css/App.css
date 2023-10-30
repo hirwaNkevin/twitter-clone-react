@@ -419,7 +419,21 @@ img {
 #who-to-follow > a {
     border: 1px solid;
     width: 100%;
-    display: block;
     padding: 1em;
     margin-left: -1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#who-to-follow .account {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+#who-to-follow .name-who_to_follow {
+    font-weight: 100;
+    color: #878787;
+    font-size: 1.2rem;
 }
