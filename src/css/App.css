@@ -393,3 +393,33 @@
     font-weight: bolder;
     font-size: 1.6rem;
 }
+
+/* Who to follow */
+
+#who-to-follow {
+    width: 100%;
+}
+
+.img-wrapper {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+#who-to-follow .img-wrapper {
+    width: 3em;
+    height: 3em;
+}
+
+#who-to-follow > a {
+    border: 1px solid;
+    width: 100%;
+    display: block;
+    padding: 1em;
+    margin-left: -1em;
+}
