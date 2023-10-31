@@ -447,7 +447,7 @@ img {
     font-weight: bold;
 }
 
-.accounts-to-follow {
+#accounts-to-follow {
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
