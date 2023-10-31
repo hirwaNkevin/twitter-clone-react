@@ -32,10 +32,12 @@ const SideBarTrendsComponent = () => {
         </div>
         <div id="who-to-follow">
           <h2>Who to Follow</h2>
+          <div className="accounts-to-follow">
           <AccountToFolow />
           <AccountToFolow />
           <AccountToFolow />
           <AccountToFolow />
+          </div>
         </div>
       </div>
     </>
