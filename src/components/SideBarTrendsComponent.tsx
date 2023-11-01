@@ -91,8 +91,8 @@ const AccountToFolow = () => {
           />
         </div>
         <div className="account-info">
-          <h3 className="username-who_to_follow">Kevin Hirwa</h3>
-          <p className="name-who_to_follow">@HirwaNkevin</p>
+          <h3 className="name-who_to_follow">Kevin Hirwa</h3>
+          <p className="username-who_to_follow">@HirwaNkevin</p>
         </div>
       </div>
       <div className="follow-btn-wrapper-who_to_follow">
