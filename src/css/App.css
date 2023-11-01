@@ -445,6 +445,7 @@ img {
     border: none;
     font-size: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #accounts-to-follow {
