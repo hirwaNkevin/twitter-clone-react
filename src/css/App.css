@@ -436,6 +436,10 @@ img {
     font-size: 1.2rem;
 }
 
+#who-to-follow .name-who_to_follow:hover {
+    text-decoration: underline;
+}
+
 #who-to-follow .follow-btn-who_to_follow {
     outline: none;
     background-color: #fff;
