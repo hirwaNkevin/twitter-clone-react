@@ -459,3 +459,20 @@ img {
     align-items: center;
     justify-content: space-between;
 }
+
+/* Footer */
+
+footer {
+    border: 1px solid;
+    width: 75%;
+    margin: auto;
+    padding: 1em;
+    color: #878787;
+    font-size: 1.2rem;
+}
+
+.footer-links > * {
+    display: inline-block;
+    margin-bottom: .5em;
+    margin-right: 1em;
+}
