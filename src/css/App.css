@@ -464,10 +464,11 @@ img {
 
 footer {
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
     padding: 1em;
     color: #878787;
     font-size: 1.2rem;
+    margin-top: -1em;
 }
 
 .footer-links > * {
