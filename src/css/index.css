@@ -53,6 +53,7 @@ a {
     right: 2em;
     border: 1px solid;
     width: 27%;
+    border-radius: 4rem;
 }
 
 #sidebar {
