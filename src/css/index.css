@@ -53,8 +53,8 @@ a {
     right: 2em;
     border: 1px solid;
     width: 27%;
-    border-top-right-radius: 4rem;
-    border-top-left-radius: 4rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
 }
 
 #sidebar {
