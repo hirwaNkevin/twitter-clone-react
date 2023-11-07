@@ -55,6 +55,7 @@ a {
     width: 27%;
     border-top-right-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
+    padding: 1em;
 }
 
 #sidebar {
