@@ -2,6 +2,7 @@ import Feed from "./components/Feed";
 import SideBar from "./components/SideBar";
 import Trends from "./components/SideBarTrendsComponent";
 import Footer from "./components/FooterComponent";
+import Messaging from "./components/MessagingComponent";
 import "./css/App.css";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <Footer />
         </aside>
         <div id="messaging">
-          <h2>Messaging</h2>
+          <Messaging />
         </div>
       </div>
     </>
