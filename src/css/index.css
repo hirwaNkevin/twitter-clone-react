@@ -62,3 +62,7 @@ a {
 #sidebar {
     position: fixed;
 }
+
+#trends {
+    margin-bottom: 4.5em;
+}
