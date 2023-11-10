@@ -36,6 +36,14 @@ a {
     color: inherit;
 }
 
+/* Active states */
+
+a:hover,
+a:focus,
+a:active {
+    background-color: #16181c;
+}
+
 .container {
     width: 95%;
     margin: auto;
