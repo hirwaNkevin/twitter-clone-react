@@ -7,7 +7,7 @@ const MessagingComponent = () => {
     <>
       <nav id="messages-nav">
         <h2>Messages</h2>
-        <ul>
+        <ul id="messages-nav-controls">
           <li>
             <a href="#">
               <FontAwesomeIcon icon={faEnvelope} />

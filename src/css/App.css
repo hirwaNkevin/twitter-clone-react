@@ -484,3 +484,10 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-between;
 }
+
+#messages-nav-controls {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    align-items: center;
+}
