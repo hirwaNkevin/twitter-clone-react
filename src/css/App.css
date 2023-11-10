@@ -476,3 +476,10 @@ footer {
     margin-bottom: .5em;
     margin-right: 1em;
 }
+
+/* Messages */
+
+#messages-nav {
+    display: flex;
+    flex-flow: row nowrap;
+}
