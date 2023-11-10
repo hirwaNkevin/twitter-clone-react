@@ -332,12 +332,16 @@
     border-radius: 4rem;
 }
 
+#search-form>input:hover,
+#search-form>input:active,
+#search-form>input:focus,
 #search-form > input {
     padding: .5em;
     background-color: inherit;
     color: #878787;
     border: none;
     color: #fff;
+    outline: none;
 }
 
 #search-form > span > svg {
