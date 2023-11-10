@@ -342,6 +342,7 @@
     border: none;
     color: #fff;
     outline: none;
+    width: 100%;
 }
 
 #search-form > span > svg {
