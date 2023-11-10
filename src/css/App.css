@@ -277,6 +277,7 @@
 /* Loaded Posts */
 
 #loaded-posts {
+    display: block;
     padding: 1em;
     text-align: center;
     color: var(--primary-color);
