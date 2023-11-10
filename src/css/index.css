@@ -44,6 +44,10 @@ a:active {
     background-color: #16181c;
 }
 
+#wrapper #sidebar a {
+    border-radius: 4rem;
+}
+
 .container {
     width: 95%;
     margin: auto;
