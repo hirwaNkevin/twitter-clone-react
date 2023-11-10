@@ -55,7 +55,7 @@ a {
     border-top-right-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
     padding: 1em;
-    background-color: #000000;
+    background-color: var(--background-color);
     box-shadow: 0 0 10px 1px #e7e9ea49;
 }
 
