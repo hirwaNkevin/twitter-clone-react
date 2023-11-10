@@ -492,3 +492,7 @@ footer {
     gap: 1em;
     align-items: center;
 }
+
+#messages-nav h2 {
+    font-size: 1.8rem;
+}
