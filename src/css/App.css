@@ -78,6 +78,12 @@
     margin-bottom: .5em;
 }
 
+#cta>a:hover,
+#cta>a:focus,
+#cta>a:active {
+    background-color: var(--active-primary-color);
+}
+
 #account {
     width: 85%;
     display: flex;
