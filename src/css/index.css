@@ -54,6 +54,13 @@ a:active {
     margin: auto;
 }
 
+#logo {
+    font-size: 3rem;
+    width: fit-content;
+    display: inline;
+    padding: .3em .4em;
+}
+
 #wrapper {
     display: grid;
     grid-template-columns: 20% 2fr 1.4fr;

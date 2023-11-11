@@ -18,8 +18,10 @@ const SideBar = () => {
   return (
     <>
       <nav id="sidebar">
-        <a href="http://" id="logo">
-          <FontAwesomeIcon icon={faXTwitter} />
+        <a href="http://" id="logo" className="">
+          <span className="">
+            <FontAwesomeIcon icon={faXTwitter} />
+          </span>
         </a>
         <ul id="nav-list">
           <li className="nav-item">
