@@ -38,6 +38,12 @@
     width: 20%;
 }
 
+.nav-item:hover a,
+.nav-item:focus a,
+.nav-item:active a {
+    background-color: #20232753;
+}
+
 #logo {
     font-size: 3rem;
     padding: 0 .5em;
