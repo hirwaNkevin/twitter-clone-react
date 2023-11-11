@@ -59,6 +59,7 @@ a:active {
     width: fit-content;
     display: inline;
     padding: .3em .4em;
+    margin-left: .2em;
 }
 
 #wrapper {
