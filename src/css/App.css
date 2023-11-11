@@ -27,21 +27,28 @@
 }
 
 .navlink {
+    width: 100%;
+}
+
+.navlink-content {
     display: flex;
     gap: .7em;
     justify-content: left;
     padding: .6em;
+    padding-right: 1.5em;
     align-items: center;
+    width: fit-content;
+    border-radius: 4rem;
 }
 
-.navlink > svg{
-    width: 20%;
+.navlink-content > svg{
+    width: 2em;
 }
 
-.nav-item:hover a,
-.nav-item:focus a,
-.nav-item:active a {
-    background-color: #20232753;
+.nav-item:hover .navlink-content,
+.nav-item:focus .navlink-content,
+.nav-item:active .navlink-content {
+    background-color: #20232799;
 }
 
 #logo {
@@ -50,11 +57,8 @@
 }
 
 #more-icon svg{
-    border: 2px solid;
-    width: 15%;
+    width: 2em;
     border-radius: 50%;
-    padding: .3em 0;
-    margin-right: .4em;
     display: inline-block;
 }
 
