@@ -45,6 +45,9 @@
     width: 2em;
 }
 
+#logo:hover,
+#logo:focus,
+#logo:active,
 .nav-item:hover .navlink-content,
 .nav-item:focus .navlink-content,
 .nav-item:active .navlink-content {
