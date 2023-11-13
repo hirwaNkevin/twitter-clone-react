@@ -45,15 +45,6 @@
     width: 2em;
 }
 
-#logo:hover,
-#logo:focus,
-#logo:active,
-.nav-item:hover .navlink-content,
-.nav-item:focus .navlink-content,
-.nav-item:active .navlink-content {
-    background-color: #20232799;
-}
-
 #more-icon svg{
     width: 2em;
     border-radius: 50%;
@@ -515,4 +506,19 @@ footer {
 
 #messages-nav h2 {
     font-size: 1.8rem;
+}
+
+/* Active states */
+
+/* Hover, focus, active */
+
+/* navlinks */
+
+#logo:hover,
+#logo:focus,
+#logo:active,
+.nav-item:hover .navlink-content,
+.nav-item:focus .navlink-content,
+.nav-item:active .navlink-content {
+    background-color: #20232799;
 }
