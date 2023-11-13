@@ -525,3 +525,10 @@ footer {
 .nav-item:active .navlink-content {
     background-color: #20232799;
 }
+
+/* Account */
+#account:hover,
+#account:focus,
+#account:active {
+    cursor: pointer;
+}
