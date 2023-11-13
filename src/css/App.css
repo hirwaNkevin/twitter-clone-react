@@ -514,6 +514,9 @@ footer {
 
 /* navlinks */
 
+#account:hover,
+#account:focus,
+#account:active,
 #logo:hover,
 #logo:focus,
 #logo:active,
