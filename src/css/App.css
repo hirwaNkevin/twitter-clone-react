@@ -530,3 +530,11 @@ footer {
 #account:active {
     cursor: pointer;
 }
+
+/* Feed menu */
+#feed-menu>nav>a:hover,
+#feed-menu>nav>a:focus,
+#feed-menu>nav>a:active
+{
+    background-color: #ffffff1b;
+}
