@@ -41,6 +41,10 @@
     border-radius: 4rem;
 }
 
+.navlink-content > .sidebar-link-content {
+    display: block;
+}
+
 .navlink-content > svg{
     width: 2em;
 }
