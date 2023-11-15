@@ -48,7 +48,7 @@ const QuickPostComponent = () => {
               </div>
               <button
                 type="submit"
-                className="post-submit-btn btn"
+                className="post-submit-btn btn post-submit-disabled"
                 // disabled={5 === Math.round(Math.random()) + 10 ? true : false}
                 disabled
               >
