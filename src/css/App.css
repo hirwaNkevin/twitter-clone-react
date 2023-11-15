@@ -538,3 +538,10 @@ footer {
 {
     background-color: #ffffff1b;
 }
+
+/* quick post accesories */
+.accesories > .post-accesory:hover,
+.accesories > .post-accesory:focus,
+.accesories > .post-accesory:active {
+    background-color: #1d9cf015;
+}
