@@ -24,7 +24,7 @@ const SideBar = () => {
           </span>
         </a>
         <ul id="nav-list">
-          <li className="nav-item">
+          <li className="nav-item active">
             <a href="" className="navlink">
               <span className="navlink-content">
                 <FontAwesomeIcon icon={faHome} />{" "}

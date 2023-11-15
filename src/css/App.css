@@ -545,3 +545,8 @@ footer {
 .accesories > .post-accesory:active {
     background-color: #1d9cf015;
 }
+
+/* active / disabled */
+.active {
+    font-weight: bolder;
+}
