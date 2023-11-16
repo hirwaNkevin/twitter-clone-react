@@ -562,4 +562,5 @@ footer {
 /* Post controls */
 .ctlr-comment:hover {
     background-color: #1d9cf015;
+    color: var(--primary-color);
 }
