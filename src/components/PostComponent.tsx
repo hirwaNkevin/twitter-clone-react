@@ -37,23 +37,23 @@ const PostComponent = () => {
             possimus beatae facere deleniti et.
           </div>
           <ul className="post-controls">
-            <li className="ctlr">
+            <li className="ctlr ctlr-comment">
               <FontAwesomeIcon icon={faCommentAlt} />
               <span className="ctlr-count">5</span>
             </li>
-            <li className="ctlr">
+            <li className="ctlr ctlr-repost">
               <FontAwesomeIcon icon={faRepeat} />
               <span className="ctlr-count">5</span>
             </li>
-            <li className="ctlr">
+            <li className="ctlr ctlr-like">
               <FontAwesomeIcon icon={faHeart} />
               <span className="ctlr-count">5</span>
             </li>
-            <li className="ctlr">
+            <li className="ctlr ctlr-views">
               <FontAwesomeIcon icon={faChartBar} />
               <span className="ctlr-count">5</span>
             </li>
-            <li className="ctlr">
+            <li className="ctlr ctlr-share">
               <FontAwesomeIcon icon={faUpload} />
               <span className="ctlr-count">5</span>
             </li>
