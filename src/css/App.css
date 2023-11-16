@@ -558,3 +558,8 @@ footer {
 .post-submit-disabled {
     opacity: .5;
 }
+
+/* Post controls */
+.ctlr-comment:hover {
+    background-color: #1d9cf015;
+}
