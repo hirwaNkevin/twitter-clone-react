@@ -223,15 +223,10 @@
 
 .ctlr {
     display: flex;
-    gap: .4em;
+    gap: .7em;
     align-items: center;
     cursor: pointer;
-    padding: .5em .2em;
-    width: 3.6rem;
-    height: 2.7rem;
     justify-content: center;
-    border-radius: 50%;
-    font-size: smaller;
 }
 
 .ctlr-count {
