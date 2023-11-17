@@ -229,6 +229,12 @@
     justify-content: center;
 }
 
+.ctlr>svg {
+    border: 1px solid;
+    font-size: smaller;
+    padding: .5em;
+}
+
 .ctlr-count {
     font-size: small;
 }
