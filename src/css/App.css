@@ -568,12 +568,24 @@ footer {
 
 /* Post controls */
 /* comment */
+.ctlr-share:hover,
+.ctlr-share:focus,
+.ctlr-share:active,
+.ctlr-views:hover,
+.ctlr-views:focus,
+.ctlr-views:active,
 .ctlr-comment:hover,
 .ctlr-comment:focus,
 .ctlr-comment:active {
     color: var(--primary-color);
 }
 
+.ctlr-share:hover svg,
+.ctlr-share:focus svg,
+.ctlr-share:active svg,
+.ctlr-views:hover svg,
+.ctlr-views:focus svg,
+.ctlr-views:active svg,
 .ctlr-comment:hover svg,
 .ctlr-comment:focus svg,
 .ctlr-comment:active svg {
