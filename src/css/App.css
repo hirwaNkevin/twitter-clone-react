@@ -223,7 +223,7 @@
 
 .ctlr {
     display: flex;
-    gap: .7em;
+    gap: .3em;
     align-items: center;
     cursor: pointer;
     justify-content: center;
