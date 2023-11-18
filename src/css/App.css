@@ -573,6 +573,8 @@ footer {
     color: var(--primary-color);
 }
 
-.ctlr-comment:hover svg {
+.ctlr-comment:hover svg,
+.ctlr-comment:focus svg,
+.ctlr-comment:active svg {
     background-color: #1d9cf015;
 }
