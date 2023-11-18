@@ -232,6 +232,7 @@
 .ctlr>svg {
     font-size: smaller;
     padding: .7em;
+    border-radius: 50%;
 }
 
 .ctlr-count {
