@@ -592,3 +592,16 @@ footer {
 .ctlr-repost:active svg {
     background-color: #00ba7c15;
 }
+
+/* like */
+.ctlr-like:hover,
+.ctlr-like:focus,
+.ctlr-like:active {
+    color: #f91880;
+}
+
+.ctlr-like:hover svg,
+.ctlr-like:focus svg,
+.ctlr-like:active svg {
+    background-color: #f9188015;
+}
