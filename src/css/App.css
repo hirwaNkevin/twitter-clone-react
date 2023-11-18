@@ -566,7 +566,12 @@ footer {
 }
 
 /* Post controls */
-.ctlr-comment:hover {
-    background-color: #1d9cf015;
+.ctlr-comment:hover,
+.ctlr-comment:focus,
+.ctlr-comment:active {
     color: var(--primary-color);
+}
+
+.ctlr-comment:hover svg {
+    background-color: #1d9cf015;
 }
