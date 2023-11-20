@@ -624,3 +624,10 @@ footer {
 #subscribe-premium>a:focus {
     background-color: var(--active-primary-color);
 }
+
+/* Trend */
+.trend:hover,
+.trend:active,
+.trend:focus {
+    background-color: #2f333650;
+}
