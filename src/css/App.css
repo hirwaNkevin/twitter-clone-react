@@ -643,3 +643,11 @@ footer {
 .trend:focus {
     background-color: #2f333650;
 }
+
+/* trend ellipsis */
+.category-wrp>a:hover,
+.category-wrp>a:active,
+.category-wrp>a:focus {
+    color: var(--primary-color);
+    background-color: #1d9cf015;
+}
