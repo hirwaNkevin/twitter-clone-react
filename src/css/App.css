@@ -617,3 +617,10 @@ footer {
 .ctlr-like:active svg {
     background-color: #f9188015;
 }
+
+/* Subscribe */
+#subscribe-premium>a:hover,
+#subscribe-premium>a:active,
+#subscribe-premium>a:focus {
+    background-color: var(--active-primary-color);
+}
