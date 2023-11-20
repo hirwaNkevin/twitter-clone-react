@@ -60,22 +60,22 @@ const Search = () => {
 const Trend = () => {
   return (
     <>
-      <div className="trend">
+      <a href="#" className="trend">
         <div className="category-wrp">
           <div className="category">
             <span className="category-name">
               Technology <span>&bull;</span>Trending
             </span>
           </div>
-          <span>
+          <a href="#">
             <FontAwesomeIcon icon={faEllipsis} />
-          </span>
+          </a>
         </div>
         <div className="trend-name">Vercel</div>
         <div className="post-number">
           <span className="post-number-count">3,443</span> posts
         </div>
-      </div>
+      </a>
     </>
   );
 };
