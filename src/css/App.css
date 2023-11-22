@@ -662,3 +662,9 @@ footer {
 /* Responsiveness */
 
 /* Mobile */
+
+@media screen and (min-width: 40rem) and (max-width: 60rem) {
+    #wrapper {
+        display: none;
+    }
+}
