@@ -6,11 +6,6 @@
     --nav-links-hover-background-color: #20232799;
 }
 
-@font-face {
-    font-family: "Roboto";
-    src: url(../assets/Roboto-Regular.ttf);
-}
-
 html {
     font-size: 62.5%;
 }
