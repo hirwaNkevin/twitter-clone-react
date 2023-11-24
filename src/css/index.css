@@ -6,9 +6,9 @@
     --nav-links-hover-background-color: #20232799;
 }
 
-html {
+/* html {
     font-size: 62.5%;
-}
+} */
 
 * {
     font-family: "Arial", "Roboto", system-ui, sans-serif;
@@ -19,7 +19,7 @@ html {
 body {
     background-color: var(--background-color);
     color: #e7e9ea;
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
 ul {
@@ -51,4 +51,8 @@ header {
 
 main {
     grid-area: feed;
+}
+
+@media screen and (min-width: 80rem) {
+    /* Test works */
 }
