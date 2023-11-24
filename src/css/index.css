@@ -36,3 +36,19 @@ a {
 #wrapper > * {
     border: 1px solid;
 }
+
+#wrapper {
+    display: grid;
+    grid-template-areas: "navigation feed feed search"
+                          "navigation feed feed subscribe"
+                          "navigation feed feed trends"
+                          "navigation feed feed follow-recommendations";
+}
+
+header {
+    grid-area: navigation;
+}
+
+main {
+    grid-area: feed;
+}
