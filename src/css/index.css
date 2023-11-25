@@ -48,6 +48,7 @@ a {
                           "navigation feed feed trends"
                           "navigation feed feed follow-recommendations";
     min-height: 100dvh;
+    border: 1px solid;
 }
 
 header {
