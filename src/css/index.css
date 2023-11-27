@@ -64,8 +64,17 @@ main {
     grid-area: search;
 }
 
-@media screen and (min-width: 80rem) {
-    /* Test works */
+@media screen and (max-width: 80rem) {
+    #wrapper {
+        grid-template-areas: "navigation feed feed feed search"
+                "navigation feed feed feed subscribe"
+                "navigation feed feed feed trends"
+                "navigation feed feed feed follow-recommendations";
+    }
+
+    header {
+        width: fit-content;
+    }
 }
 
 @media screen and (max-width: 60rem) {
@@ -74,8 +83,10 @@ main {
             "navigation feed feed feed"
             "navigation feed feed feed"
             "navigation feed feed feed";
-        }
+    }
+
     #search {
         display: none;
     }
+
 }
