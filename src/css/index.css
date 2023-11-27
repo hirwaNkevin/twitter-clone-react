@@ -60,6 +60,22 @@ main {
     grid-area: feed;
 }
 
+#search {
+    grid-area: search;
+}
+
 @media screen and (min-width: 80rem) {
     /* Test works */
+}
+
+@media screen and (max-width: 60rem) {
+    #wrapper {
+        grid-template-areas: "navigation feed feed feed"
+            "navigation feed feed feed"
+            "navigation feed feed feed"
+            "navigation feed feed feed";
+        }
+    #search {
+        display: none;
+    }
 }
