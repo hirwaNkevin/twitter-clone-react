@@ -5,7 +5,7 @@ import { faHome } from "@fortawesome/free-solid-svg-icons/faHome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 function App() {
   return (
-    <div id="wrapper" className="sm:container mx-auto">
+    <div id="wrapper" className="container sm:container mx-auto">
       <header>
         <div id="logo">
           <a href="">
