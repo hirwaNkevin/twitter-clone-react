@@ -67,6 +67,7 @@ main {
 
 @media screen and (max-width: 80rem) {
   #wrapper {
+    grid-template-columns: auto 3.5fr 3.5fr 3.5fr 4fr;
     grid-template-areas:
       "navigation feed feed feed search"
       "navigation feed feed feed subscribe"
@@ -81,11 +82,12 @@ main {
 
 @media screen and (max-width: 60rem) {
   #wrapper {
+    grid-template-columns: auto 10fr;
     grid-template-areas:
-      "navigation feed feed feed"
-      "navigation feed feed feed"
-      "navigation feed feed feed"
-      "navigation feed feed feed";
+      "navigation feed feed feed feed"
+      "navigation feed feed feed feed"
+      "navigation feed feed feed feed"
+      "navigation feed feed feed feed";
   }
 
   #search {
