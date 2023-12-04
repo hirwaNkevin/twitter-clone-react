@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import "../css/navlink.css";
 
 interface Props {
   icon: ReactNode;
