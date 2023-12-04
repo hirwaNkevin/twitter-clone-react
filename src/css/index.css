@@ -76,6 +76,9 @@ main {
   }
 
   header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     width: 7dvw;
   }
 }
