@@ -80,6 +80,7 @@ main {
     flex-flow: column nowrap;
     align-items: center;
     width: 7dvw;
+    font-size: 1.7rem;
   }
 }
 
