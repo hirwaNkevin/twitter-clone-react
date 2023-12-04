@@ -76,7 +76,7 @@ main {
   }
 
   header {
-    max-width: fit-content;
+    width: 7dvw;
   }
 }
 
