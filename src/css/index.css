@@ -43,6 +43,7 @@ a {
 
 #wrapper {
   display: grid;
+  grid-template-columns: auto 3.5fr 3.5fr 3.5fr 4fr;
   grid-template-areas:
     "navigation feed feed search"
     "navigation feed feed subscribe"
