@@ -56,9 +56,13 @@ a {
 header {
   grid-area: navigation;
   height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
-header > nav > ul {
+.header-wrp,
+.header-wrp > nav > ul {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -83,9 +87,6 @@ main {
   }
 
   header {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
     width: 7dvw;
     font-size: 1.7rem;
   }
