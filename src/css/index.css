@@ -58,6 +58,12 @@ header {
   height: 100%;
 }
 
+header > nav > ul {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
 main {
   grid-area: feed;
 }
