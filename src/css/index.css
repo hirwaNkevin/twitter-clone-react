@@ -98,4 +98,8 @@ main {
   #search {
     display: none;
   }
+
+  header {
+    width: 10dvw;
+  }
 }
