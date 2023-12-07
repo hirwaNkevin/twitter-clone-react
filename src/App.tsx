@@ -7,25 +7,27 @@ function App() {
   return (
     <div id="wrapper" className="container sm:container mx-auto">
       <header>
-        <div id="logo">
-          <a href="">
-            <FontAwesomeIcon icon={faXTwitter} />
-          </a>
+        <div className="header-wrp">
+          <div id="logo">
+            <a href="">
+              <FontAwesomeIcon icon={faXTwitter} />
+            </a>
+          </div>
+          <nav>
+            <ul>
+              <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
+              <NavLink
+                name="Search"
+                icon={<FontAwesomeIcon icon={faMagnifyingGlass} />}
+              />
+              <NavLink
+                name="Communities"
+                icon={<FontAwesomeIcon icon={faHome} />}
+              />
+              <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
+            </ul>
+          </nav>
         </div>
-        <nav>
-          <ul>
-            <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
-            <NavLink
-              name="Search"
-              icon={<FontAwesomeIcon icon={faMagnifyingGlass} />}
-            />
-            <NavLink
-              name="Communities"
-              icon={<FontAwesomeIcon icon={faHome} />}
-            />
-            <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
-          </ul>
-        </nav>
       </header>
       <main>main</main>
     </div>
