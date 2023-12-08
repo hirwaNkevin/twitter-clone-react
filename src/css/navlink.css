@@ -12,6 +12,9 @@
 
 .nav-link {
   width: 100%;
-  display: inline-block;
+  display: flex;
   border: 1px solid;
+  flex-flow: row nowrap;
+  justify-content: left;
+  gap: 1em;
 }
