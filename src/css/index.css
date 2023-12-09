@@ -59,6 +59,7 @@ header {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 .header-wrp,
@@ -95,7 +96,6 @@ main {
 
   header {
     width: 7dvw;
-    font-size: 1.7rem;
   }
 }
 
