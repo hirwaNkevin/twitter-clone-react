@@ -68,6 +68,13 @@ header {
   align-items: center;
 }
 
+.header-wrp > nav > ul {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid;
+  gap: 0.5em;
+}
+
 main {
   grid-area: feed;
 }

@@ -25,6 +25,10 @@ function App() {
                 icon={<FontAwesomeIcon icon={faHome} />}
               />
               <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
+              <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
+              <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
+              <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
+              <NavLink name="Home" icon={<FontAwesomeIcon icon={faHome} />} />
             </ul>
           </nav>
         </div>
